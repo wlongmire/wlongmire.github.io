@@ -1,0 +1,70 @@
+body {
+  margin-top: 60px;
+}
+
+.navbar {
+  margin: 0px;
+  width: 100%;
+  position: fixed !important;
+  border: 2px solid black;
+  top: 0px;
+  z-index: 999;
+
+  background: #ffffff;
+}
+
+.content {
+  display: flex;
+}
+
+.workCarousel li {
+  list-style: none;
+}
+
+.billboard {
+  display: flex;
+}
+
+.logo {
+  flex-grow: 2;
+}
+
+#home h1 {
+  font-size: 14rem;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0.7;
+}
+
+#home h2 {
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+#home p {
+  padding-left: 15px;
+  font-size: 0.9rem;
+}
+
+.page {
+  border: 2px solid black;
+  width: 100%;
+  padding: 10px;
+  height: 800px;
+}
+
+.workCarousel {
+  padding-left: 15px;
+}
+
+#servicesSlider {
+  margin: 0 auto;
+}
+
+#peopleGallery {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
